@@ -14,7 +14,7 @@ public class DemoTest {
 	}
 	
 	@Test
-	void 片方負の数() {
+	void 片方が負の数() {
 		Demo target = new Demo();
 		int result = target.absAdd(-3, 5);
 		assertTrue(result == 8);
